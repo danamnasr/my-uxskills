@@ -1,0 +1,162 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navigation {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+    background: #B3E3D9;
+}
+
+.main-section {
+    background: #B3E3D9;
+    width: 80%;
+    margin: 0 auto;
+    padding: 0 50px;
+}
+
+.inline-block {
+    display: inline-block;
+    vertical-align: top;
+}
+
+nav ul li {
+    font-weight: 700;
+    padding: 0 10px;
+}
+
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 0;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+
+}
+
+footer {
+    background: #b3e3d985;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 50px;
+}
+
+footer ul li {
+    font-size: 40px;
+    list-style: none;
+}
+
+ul {
+    padding: unset;
+}
+
+footer p {
+    font-weight: 700;
+}
+
+footer button {
+    background: #B3E3D9;
+    border: none;
+    outline: none;
+    padding: 5px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.project-title {
+    font-weight: 600;
+}
+
+.myUxSkill,
+.myWork {
+    width: 80%;
+    margin: 0 auto;
+    padding: 50px;
+    background: #B3E3D9;
+}
+
+
+.skill_title {
+    text-align: center;
+    padding: 10px;
+}
+
+.skill_cards {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+}
+
+.skill_cards div {
+    text-align: center;
+    padding: 10px;
+}
+
+
+.work_title {
+    text-align: center;
+    padding: 10px;
+}
+
+.work_card {
+    padding: 10px;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid black;
+    margin: 10px;
+}
+
+.card div {
+    padding: 10px;
+}
+
+.card_content {
+    border-left: 2px solid black;
+}
+
+.view_all {
+    text-align: center;
+    padding: 10px;
+}
+
+.card_content button {
+    border: none;
+    outline: none;
+    background: #333;
+    color: white;
+    font-size: 12px;
+    padding: 5px;
+}
+
+@media(max-width:768px) {
+    .skill_cards {
+        display: block;
+    }
+
+    .card {
+        display: block;
+    }
+
+    .myUxSkill,
+    .myWork {
+        width: 100%;
+        margin: 0 auto;
+        padding: unset;
+    }
+}
